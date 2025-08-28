@@ -1,2 +1,3 @@
 # JavaScriptCodes
-my JS codes
+
+This is my codes.
