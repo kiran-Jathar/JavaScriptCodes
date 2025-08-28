@@ -1,0 +1,19 @@
+<html>
+<body>
+	<script language="javascript" type="text/javascript">
+		var a=new Array(5);
+		a[0]=100;
+		a[1]=200;
+		a[2]=300;
+		a[3]=400;
+		a[4]=500;
+		document.write("<h1>Initial Array Elements:"+a);
+		a.push(600,700,800);
+		document.write("<br>After adding three elements at Last:"+a);
+		a.unshift(50);
+		document.write("<br>After adding elements as beginning:"+a);
+		a[a.length]=900;
+		document.write("<br>After adding elements using length method:"+a);
+	</script>
+</body>
+</html>
